@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 
-# Secret key for encoding JWT (normally keep it secret in env variable)
+# Secret key for encoding JWT (normally keep it secret in env variable) rahul
 SECRET_KEY = "your_secret_key"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
